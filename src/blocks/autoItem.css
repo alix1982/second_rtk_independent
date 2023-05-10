@@ -1,0 +1,39 @@
+.item {
+  width: 40vw;
+  margin: 0 auto;
+}
+
+.item__point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item__blockRating {
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.item__delete, .item__save, .item__blockRating>span {
+  font-size: 14px;
+  padding: 0 5px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  color:red;
+}
+
+.item__rating {
+  /* margin-left: 5px; */
+  align-self: flex-end;
+  width: 0;
+  border: none;
+}
+
+.item__rating:focus {
+  width: 4vw;
+  /* position: relative;
+  right: 2vw; */
+}
